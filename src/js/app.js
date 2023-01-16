@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const body = document.querySelector("body");
     body.addEventListener("click", () => {
         for (let i = 1; i <= 5; i++) {
-            body.innerHTML = '<article>This is article - ' + i + '</article>';
+            body.innerHTML = '<article class="message">This is message - ' + i + '</article>';
         }
     });
 });
