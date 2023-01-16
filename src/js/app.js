@@ -8,10 +8,4 @@ window.addEventListener("DOMContentLoaded", () => {
         alert("💣");
     });
 
-    const body = document.querySelector("body");
-    body.addEventListener("click", () => {
-        for (let i = 1; i <= 5; i++) {
-            body.innerHTML = '<article class="message">This is message - ' + i + '</article>';
-        }
-    });
 });
